@@ -246,8 +246,15 @@ footer .footer-sect{
     justify-content:center;
     align-items: center;
   }
+     .user-img{
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    width:100%;
+  }
   .stats-sect{
   flex-direction: column;
+  width:100%;
 }
 .stat-container{
   flex-direction: column;
@@ -261,6 +268,9 @@ footer .footer-sect{
   }
     .user-img{
     flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    width:100%;
   }
    .user-content{
     justify-content:center;
@@ -268,12 +278,15 @@ footer .footer-sect{
   }
   .user-body{
     width:100%;
+    justify-content: center;
+    align-items: center;
   }
   .user-btn{
     width:100%;
   }
     .stats-sect{
   flex-direction: column;
+  width:100%
 }
 .stat-container{
   flex-direction:column;
@@ -288,23 +301,33 @@ footer .footer-sect{
   
   grid-template-columns: repeat(1,1fr);
   row-gap:.5rem;
-
+}
+.user-img{
+  justify-content: center;
+  align-items: center;
+  width:100%;
 }
  .user-content{
     justify-content:center;
     align-items: center;
+    width:100%;
   }
   .stats-sect{
   flex-direction: column;
+  width:100%
 }
 .user-img{
   flex-direction: column;
 }
 .user-body{
   width:100%;
+  justify-content: center;
+  align-items: center;
 }
 .user-btn{
   width:100%;
+  justify-content: center;
+  align-items: center;
 }
 .stat-container{
   flex-direction:column;
