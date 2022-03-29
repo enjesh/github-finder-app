@@ -7,7 +7,7 @@ const About = () => {
     <Container>
     <Row>
     <Col></Col>
-    <Col xs={6}>
+    <Col xs={10}>
      <Card className="w-100 about-content">
       <div className="about-container">
         <div className="Github-icon">
