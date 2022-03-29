@@ -242,6 +242,12 @@ footer .footer-sect{
    .userList{
    grid-template-columns: repeat(3,1fr);
   }
+  .stats-sect{
+  flex-direction: column;
+}
+.stat-container{
+  flex-direction: column;
+}
 }
 
 
@@ -258,6 +264,13 @@ footer .footer-sect{
   .user-btn{
     width:100%;
   }
+    .stats-sect{
+  flex-direction: column;
+}
+.stat-container{
+  flex-direction:column;
+}
+
 }
 @media screen and (max-width:550px){
    .userList{
@@ -269,6 +282,9 @@ footer .footer-sect{
   row-gap:.5rem;
 
 }
+  .stats-sect{
+  flex-direction: column;
+}
 .user-img{
   flex-direction: column;
 }
@@ -278,4 +294,8 @@ footer .footer-sect{
 .user-btn{
   width:100%;
 }
+.stat-container{
+  flex-direction:column;
+}
+
 }

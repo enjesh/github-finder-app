@@ -10,7 +10,7 @@ import {
 } from "react-icons/fa";
 import Spinner from '../components/users/Loader'
 import GithubContext from '../components/context/github/GithubContext'
-import { getUser,getUserRepo} from '../components/context/github/GithubAction'
+import { getUserandRepos} from '../components/context/github/GithubAction'
 import RepoList from '../components/repo/RepoList';
 
 const User = () => {
@@ -36,17 +36,13 @@ const User = () => {
     dispatch({type:"SET_LOADING"})
 
     const getUserData = async () =>{
-      const userData = await getUser(params.login)
+      const userData = await getUserandRepos(params.login)
       dispatch({
-        type:"GET_USER",
+        type:"GET_USER_AND_REPOS",
         payload:userData
       })
 
-       const userRepoData = await getUserRepo(params.login);
-       dispatch({
-         type: "GET_REPOS",
-         payload: userRepoData,
-       });
+      
     }
     getUserData()
     
