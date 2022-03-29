@@ -261,6 +261,9 @@ footer .footer-sect{
 .stat-container{
   flex-direction: column;
 }
+.about-container{
+  flex-direction: column;
+}
 }
 
 
@@ -298,7 +301,9 @@ footer .footer-sect{
 .stat-container{
   flex-direction:column;
 }
-
+.about-container{
+  flex-direction: column;
+}
 }
 @media screen and (max-width:550px){
    .userList{
@@ -340,6 +345,9 @@ footer .footer-sect{
 }
 .stat-container{
   flex-direction:column;
+}
+.about-container{
+  flex-direction: column;
 }
 
 }
