@@ -254,6 +254,8 @@ footer .footer-sect{
   }
   .stats-sect{
   flex-direction: column;
+  justify-content:center;
+  align-items: center;
   width:100%;
 }
 .stat-container{
@@ -265,6 +267,9 @@ footer .footer-sect{
 @media screen and (max-width:768px){
    .userList{
    grid-template-columns: repeat(2,1fr);
+  }
+  .shadow-lg .card{
+    width:100%
   }
     .user-img{
     flex-direction: column;
@@ -286,6 +291,8 @@ footer .footer-sect{
   }
     .stats-sect{
   flex-direction: column;
+   justify-content:center;
+  align-items: center;
   width:100%
 }
 .stat-container{
@@ -314,6 +321,8 @@ footer .footer-sect{
   }
   .stats-sect{
   flex-direction: column;
+   justify-content:center;
+  align-items: center;
   width:100%
 }
 .user-img{
