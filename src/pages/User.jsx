@@ -1,6 +1,6 @@
 import {useContext,useEffect} from 'react'
 import {Link,useParams} from 'react-router-dom'
-import {Card, Col, Container, Figure, Badge,Row,Button,Toast,Placeholder} from 'react-bootstrap'
+import {Card, Col, Container, Badge,Row,Button,Toast,Placeholder} from 'react-bootstrap'
 import {
   FaArrowLeft,
   FaUsers,
